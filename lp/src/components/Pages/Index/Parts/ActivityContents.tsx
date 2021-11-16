@@ -19,7 +19,7 @@ export const ActivityContents = () => {
           <ActivityContent
             title="オリオンスクエア"
             num="02"
-            description="オリオン通りの象徴で Polyzome を展示します。Polyzome は生と死をテーマに、「生命とは何か」を表現します。夜は綺麗にライトアップして幻想的な世界が広がります。"
+            description="オリオン通りの象徴にて Polyzome を展示します。Polyzome は生と死をテーマに、「生命とは何か」を表現します。夜は綺麗にライトアップして幻想的な世界が広がります。"
             imagePath="/images/polyzome_210203_8_0.jpg"
           />
         </div>
