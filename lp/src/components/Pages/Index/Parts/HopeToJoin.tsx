@@ -5,16 +5,14 @@ interface Advertise {
   text: string
 }
 const advertises: Advertise[] = [
-  {url: '', text: 'U-labの広告'},
-  {url: '', text: 'UUADの広告'}
+  { url: '', text: 'U-labの広告' },
+  { url: '', text: 'UUADの広告' }
 ]
 export const HopeToJoin = () => {
   const [hello, setHello] = useState(0)
   useEffect(() => {
-    console.log(hello);
-    console.log(advertises.length);
     setHello(
-      Math.floor( Math.random() * advertises.length )
+      Math.floor(Math.random() * advertises.length)
     )
   }, [])
   return (
