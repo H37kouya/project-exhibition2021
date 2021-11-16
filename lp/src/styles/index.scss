@@ -40,3 +40,22 @@
 .right-top-rectangle::after {
   content: '';
 }
+
+.ad {
+    width: 300px;
+
+    @media screen and (max-width: 600px) {
+        width: 250px;
+    }
+}
+
+.ad::before {
+    content: '広告';
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    padding: 8px;
+    background-color: #84c56b;
+    color: #fff;
+    font-weight: bold;
+}
