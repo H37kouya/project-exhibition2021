@@ -7,29 +7,29 @@ export const TypicalProjects = () => {
     <div className="flex justify-center mb-20">
       <div style={{ maxWidth: 1000 }}>
         <div className="pb-4">
-          <LpHeader title="代表的なプロジェクト" />
+          <LpHeader title="参加団体" />
         </div>
 
         <div className="md:grid grid-cols-3 gap-6">
-          <TypicalProject
-            title="バーチャル宇都宮大学"
-            description="新入生や高校生がコロナ禍で大学に来れない問題を解決するため、仮想空間にバーチャルな宇都宮大学を作成し、高校生に向けたオープンキャンパスを行いました。"
-            imagePath="/images/lp-p1.png"
-            href="https://2021.vr-uu.com"
+          <ParticipatingGroup
+            title="学生団体U-lab"
+            description="デザイン×技術×地域を掛け合わせた学生団体U-labです。Webデザインやプログラミング、3Dモデルの制作から実際の建築まで、幅広い技術を学びながら地域のために用いています。"
+            imagePath="/images/lp-top.png"
+            href="https://uu-circles.com/circle/u-lab"
           />
 
-          <TypicalProject
-            title="UU-Circles"
-            description="新入生がオンラインでも宇大のサークルを見つけることができるように、最新のweb技術を用いて、企画から構築・運用までを行いました。"
-            imagePath="/images/uu-circles.png"
-            href="https://uu-circles.com"
+          <ParticipatingGroup
+            title="UUAD"
+            description="宇都宮大学を拠点に活動する学生団体です。空き家改修や、企業や団体とのコラボレーション、イベント企画など、地域での実践を通した学びと経験の場を提供します。"
+            imagePath="/images/uuad_logo.jpg"
+            href="https://uu-circles.com/circle/uuad"
           />
 
-          <TypicalProject
-            title="uu-yell"
-            description="新入生が宇都宮大学の情報を得ることが難しいという問題を解決するため、宇大生が中心となって、宇都宮大学生向けのメディアサイトを運営しています。"
-            imagePath="/images/lp-p3.png"
-            href="https://media.uu-circles.com"
+          <ParticipatingGroup
+            title="Vレンジャー"
+            description="子どもの体験の貧困をなくすため、宇都宮を拠点に発足した学生・若者ボランティアチームです！一緒にいちから企画を作りましょう。あなたも令和のヒーローに‼"
+            imagePath="/images/v_renjar.jpg"
+            href="https://twitter.com/Vranger20"
           />
         </div>
       </div>
@@ -43,7 +43,7 @@ type Props = {
   imagePath: string
   href: string
 }
-export const TypicalProject: VFC<Props> = ({
+export const ParticipatingGroup: VFC<Props> = ({
   title,
   description,
   imagePath,

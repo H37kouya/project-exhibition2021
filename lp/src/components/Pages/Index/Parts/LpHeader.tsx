@@ -8,7 +8,7 @@ export const LpHeader: VFC<Props> = ({
 }) => {
   return (
     <h2 className="mb-6 text-center">
-      <span>U-lab の</span>
+      <span>展示会の</span>
       <br />
       <span className="text-2xl font-bold tracking-widest">{title}</span>
     </h2>
