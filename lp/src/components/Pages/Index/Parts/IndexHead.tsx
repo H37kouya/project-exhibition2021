@@ -4,8 +4,8 @@ const IndexHead = () => {
   return (
     <>
       <NextSeo
-        title="U-lab公式サイト 活動紹介"
-        defaultTitle="U-lab公式サイト 活動紹介"
+        title="コロナ禍から考えるニューノーマルな学生プロジェクト展"
+        defaultTitle="コロナ禍から考えるニューノーマルな学生プロジェクト展"
         twitter={{
           site: '@Ulab_uu',
           cardType: 'summary',
