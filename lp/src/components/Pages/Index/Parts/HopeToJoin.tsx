@@ -5,7 +5,7 @@ interface Advertise {
   text: string
 }
 const advertises: Advertise[] = [
-  { url: '', text: 'Clickポスター' },
+  { url: 'https://ulab-uu.com/2021/11/17/click-poster/', text: 'Clickポスター' },
   { url: 'https://media.uu-circles.com/', text: 'uu-yell' }
 ]
 export const HopeToJoin = () => {
