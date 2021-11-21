@@ -12,7 +12,7 @@ export const ActivityContents = () => {
           <ActivityContent
             title="Cafe ink Blue"
             num="01"
-            description="プロジェクト展の参加団体がポスターを展示します。ポスターの近くに行くと活動秘話をたくさん聞けるはず！ジャンル不問のLT会もあり、個性が光るメンバーの姿が見れます。"
+            description="プロジェクト展の参加団体がポスターを展示します。それぞれのプロジェクトの実際の作品を展示することでよりリアルに活動を見ることができます。また現地の空間を3Dスキャンすることでよりリアルな体験ができます。"
             imagePath="/images/cafe_ink_blue.jpg"
           />
 
