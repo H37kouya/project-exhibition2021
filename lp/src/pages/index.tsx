@@ -23,7 +23,7 @@ const IndexPage: NextPage = () => {
           <iframe
             sandbox="allow-scripts allow-forms allow-same-origin allow-presentation allow-popups allow-downloads"
             allowFullScreen={true}
-            src="https://my.matterport.com/show/?m=Lu8V2q29ju9"
+            src="https://my.matterport.com/show/?m=WpKQQGZVFNt"
             height="350"
             width="560"
             style={{
