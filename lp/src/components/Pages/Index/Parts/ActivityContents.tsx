@@ -6,7 +6,7 @@ export const ActivityContents = () => {
   return (
     <div className="flex justify-center mb-20">
       <div style={{ maxWidth: 1000 }}>
-        <LpHeader title="イベント内容" />
+        <LpHeader title="イベント場所" />
 
         <div className="md:grid grid-cols-2 gap-6">
           <ActivityContent
