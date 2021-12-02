@@ -21,11 +21,11 @@ export default class MyDocument extends Document {
           ></link>
 
           {/* Google Analytics */}
-          {/* {existsGaId && (
+          {existsGaId && (
             <>
               <script
                 async
-                src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+                src={`https://www.googletagmanager.com/gtag/js?id=G-BGDQVE7939`}
               />
               <script
                 dangerouslySetInnerHTML={{
@@ -33,13 +33,13 @@ export default class MyDocument extends Document {
                             window.dataLayer = window.dataLayer || [];
                             function gtag(){dataLayer.push(arguments);}
                             gtag('js', new Date());
-                            gtag('config', '${GA_ID}', {
+                            gtag('config', 'G-BGDQVE7939', {
                                 page_path: window.location.pathname,
                             });`,
                 }}
               />
             </>
-          )} */}
+          )}
 
           {/* Google AdSense */}
           {process.env.NODE_ENV === 'production' ? (
