@@ -21,8 +21,6 @@ export default class MyDocument extends Document {
           ></link>
 
           {/* Google Analytics */}
-          {existsGaId && (
-            <>
               <script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=G-BGDQVE7939`}
@@ -38,8 +36,6 @@ export default class MyDocument extends Document {
                             });`,
                 }}
               />
-            </>
-          )}
 
           {/* Google AdSense */}
           {process.env.NODE_ENV === 'production' ? (
