@@ -6,6 +6,7 @@ import { LpHeader } from "@/src/components/Pages/Index/Parts/LpHeader"
 import { MainDescription } from "@/src/components/Pages/Index/Parts/MainDescription"
 import { TypicalProjects } from "@/src/components/Pages/Index/Parts/TypicalProjects"
 import { BaseFooter } from "@/src/layouts/BaseFooter"
+import Image from "next/image"
 
 const IndexPage: NextPage = () => {
   return (
@@ -17,19 +18,12 @@ const IndexPage: NextPage = () => {
 
         <MainDescription />
 
-        <LpHeader title="オンライン空間" />
+        <LpHeader title="ギャラリー" />
 
-        <div className="flex justify-center pb-20">
-          <iframe
-            sandbox="allow-scripts allow-forms allow-same-origin allow-presentation allow-popups allow-downloads"
-            allowFullScreen={true}
-            src="https://my.matterport.com/show/?m=WpKQQGZVFNt"
-            height="350"
-            width="560"
-            style={{
-              maxWidth: "98%",
-            }}
-          />
+        <div className="flex justify-center pb-20 gap-6">
+          <Image src="/images/pictures/uu-circles.jpg" className="object-cover rounded shadow-lg" alt="UU-Circles" width="300" height="200" />
+          <Image src="/images/pictures/uu-yell.jpg" className="object-cover rounded shadow-lg" alt="学生団体U-lab" width="300" height="200" />
+          <Image src="/images/pictures/v-ranger.jpg" className="object-cover rounded shadow-lg" alt="学生団体U-lab" width="300" height="200" />
         </div>
 
         <ActivityContents />
